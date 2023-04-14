@@ -12,5 +12,13 @@ body {
 h1 {
   font-size: 25em;
   letter-spacing: 5px;
-  background: linear-gradient(90deg, rgba(249,87,0,1) 0%, rgba(228,44,44,1) 35%, rgba(235,240,53,1) 100%);
+  background-image: linear-gradient(to bottom left, rgba(249,87,0,1) 0%, rgba(228,44,44,1) 35%, rgba(235,240,53,1) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-stroke: .05em transparent;
+}
+
+@keyframes colorMotion {
+  100% {
+    background-position: 960px 0;
+  }
 }
