@@ -7,6 +7,7 @@ body {
   align-items: center;
   height: 100vh;
   font-size: 1vmin;
+  background: radial-gradient(white, rgb(249,87,0));
 }
 
 h1 {
@@ -15,10 +16,22 @@ h1 {
   background-image: linear-gradient(to bottom left, rgba(249,87,0,1) 0%, rgba(228,44,44,1) 35%, rgba(235,240,53,1) 100%);
   -webkit-background-clip: text;
   -webkit-text-stroke: .05em transparent;
+  white-space: nowrap;
+  animation: colorMotion 5s linear infinite;
+
 }
 
 @keyframes colorMotion {
   100% {
-    background-position: 960px 0;
+    background-position: 864px 0;
+  }
+}
+
+@keyframes colors {
+  0%, 100% {
+    -webkit-filter: color-rotate(0deg);
+  }
+  50% {
+    -webkit-filter: color-rotate(360deg);
   }
 }
