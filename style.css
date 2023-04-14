@@ -2,18 +2,19 @@
 
 body {
   /* font-family: "Bebas Neue", cursive; */
-  font-family: 'Rubik Pixels', cursive;
+  font-family: 'Poppins', sans-serif;
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
   font-size: 1vmin;
   background: radial-gradient(white, rgb(249, 87, 0));
+  text-transform: uppercase;
 }
 
 h1 {
   font-size: 25em;
-  letter-spacing: 5px;
+  letter-spacing: 3px;
   background-image: linear-gradient(
     to bottom right,
     rgb(211, 46, 13) 0%,
@@ -26,8 +27,8 @@ h1 {
   -webkit-text-stroke: 0.05em transparent;
   white-space: nowrap;
   text-shadow: 5px 5px 10px rgba(0,0,0,.9);
-  animation: colorMotion 7s linear infinite alternate,
-              colors 7s linear infinite alternate-reverse;
+  animation: colorMotion 7s linear infinite,
+              colors 7s linear infinite alternate;
 }
 
 @keyframes colorMotion {
@@ -39,9 +40,9 @@ h1 {
 @keyframes colors {
   0%,
   100% {
-    -webkit-filter: color-rotate(0deg);
+    -webkit-filter: color-rotate(0deg) drop-shadow(3px 3px 1px rgba(0,0,0,.9));
   }
   50% {
-    -webkit-filter: color-rotate(360deg);
+    -webkit-filter: color-rotate(360deg) drop-shadow(3px 3px 1px rgba(0,0,0,.9));
   }
 }
