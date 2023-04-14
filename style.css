@@ -1,7 +1,6 @@
-@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300&family=Bebas+Neue&family=Poppins:wght@300;400&family=Rubik+Pixels&family=Satisfy&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300&family=Bebas+Neue&family=Poppins:wght@300;400&display=swap');
 
 body {
-  /* font-family: "Bebas Neue", cursive; */
   font-family: "Poppins", sans-serif;
   display: flex;
   justify-content: center;
