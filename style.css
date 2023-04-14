@@ -23,9 +23,9 @@ h1 {
     rgba(235, 240, 53, 1) 100%
   );
   -webkit-background-clip: text;
-  -webkit-text-stroke: 0.05em transparent;
+  -webkit-text-stroke: 0.07em transparent;
   white-space: nowrap;
-  text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.9);
+  text-shadow: 5px 5px 15px rgba(0, 0, 0, 0.9);
   animation: colorMotion 10s linear infinite, colors 15s linear infinite alternate-reverse;
 }
 
